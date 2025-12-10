@@ -117,10 +117,7 @@ impl Polygon {
                 y: (compressed_y.len() / 3) as i64,
             };
             if boundary_tiles.contains(&point) {
-                print!("#");
                 inside = !inside;
-            } else {
-                print!(".");
             }
             if inside && !boundary_tiles.contains(&point) {
                 seed = Some(point);
