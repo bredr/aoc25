@@ -12,3 +12,4 @@ itertools = "0.13.0"
 aoc-runner = "0.3.0"
 aoc-runner-derive = "0.3.0"
 regress = "0.10.5"
+z3 = {version="0.19.5", features=["gh-release"]}
